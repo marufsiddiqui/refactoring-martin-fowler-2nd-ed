@@ -7,4 +7,5 @@
 - Default name for a parameter includes the type name. He uses an indefinite article with it unless there is some specific role information to capture in the name. He learned this convention from Kent Beck [Beck SBPP] and continue to find it helpful.
 - Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 - Good code should clearly communicate what it is doing, and variable names are a key to clear code. Never be afraid to change names to improve clarity.
+- Temporary variables create a lot of locally scoped names that complicate extractions. The great benefit of removing local variables is that it makes it much easier to do extractions, since there is less local scope to deal with
 - 
