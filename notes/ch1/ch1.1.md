@@ -8,4 +8,4 @@
 - Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 - Good code should clearly communicate what it is doing, and variable names are a key to clear code. Never be afraid to change names to improve clarity.
 - Temporary variables create a lot of locally scoped names that complicate extractions. The great benefit of removing local variables is that it makes it much easier to do extractions, since there is less local scope to deal with
-
+- So, Overall advice on performance with refactoring is: Most of the time you should ignore it. If your refactoring introduces performance slow-downs, finish refactoring first and do performance tuning afterwards.
