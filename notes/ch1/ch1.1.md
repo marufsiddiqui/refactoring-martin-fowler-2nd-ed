@@ -10,4 +10,5 @@
 - Temporary variables create a lot of locally scoped names that complicate extractions. The great benefit of removing local variables is that it makes it much easier to do extractions, since there is less local scope to deal with
 - So, Overall advice on performance with refactoring is: Most of the time you should ignore it. If your refactoring introduces performance slow-downs, finish refactoring first and do performance tuning afterwards.
 - Breaking down complicated chunks into small pieces is important, as is naming things well.
-
+- When programming, follow the camping rule: Always leave the code base healthier than when you found it.
+- 
